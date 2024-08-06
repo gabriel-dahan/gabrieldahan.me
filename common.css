@@ -30,6 +30,11 @@ hr {
     border: none;
 }
 
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .header {
     display: flex;
     gap: 20px;
@@ -47,7 +52,7 @@ hr {
 
 a {
     color: var(--link-color);
-    text-decoration-color: var(--link-color);
+    text-decoration: none;
 }
 
 .header > input[type=text] {
@@ -57,6 +62,17 @@ a {
     border: none;
     border-radius: 10px;
     padding: 0 0 0 10px;
+}
+
+.header > h1 > a {
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
+}
+
+.section > .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .footer {
